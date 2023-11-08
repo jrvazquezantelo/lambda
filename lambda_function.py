@@ -5,3 +5,4 @@ def lambda_handler(event, context):
     df = pd.DataFrame(data=d)
     print(df)
     print('Success x1.2')
+    return "Ok 1"
